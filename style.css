@@ -1,6 +1,8 @@
 html, body {
     height: 100%;
     box-sizing: border-box;
+    font-family: "Roboto"
+    font-size:30px;
 }
 
 *, *:before, *:after {
@@ -8,15 +10,45 @@ html, body {
 }
 
 .main{
-
+width:500px;
+margin:auto;
+position: relative;
+   top: 50%;
+   transform: translateY(-50%);
 }
 
 .logo{
+font-size: 50px;
+color: white;
+margin-bottom: 15px;
+margin-top: 0px;
+}
 
+.tagline{
+font-size: 20px;
+color:white;
 }
 
 .button{
-  height: 50px;
+  height: 40px;
   width: 200px;
-  padding: 20px;
+  padding: 10px 20px;
+  background-color: blue;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
 }
+
+.button:hover{
+  background: white;
+  color: blue;
+}
+
+body{
+  background-image: url("bgg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
