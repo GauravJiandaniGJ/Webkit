@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.main{
+
+}
+
+.logo{
+
+}
+
+.button{
+  height: 50px;
+  width: 200px;
+  padding: 20px;
+}
